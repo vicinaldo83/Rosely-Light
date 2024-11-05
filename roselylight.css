@@ -1,0 +1,435 @@
+/**
+ * @name Rosely-Light
+ * @version 1.0.0
+ * @description: Rosely Light Discord Theme is based on a millennial pink inspired colour palette.
+ * @website https://github.com/vicinaldo83/Rosely-Light
+ */
+
+
+ :root {
+    /* Color palette */
+    --rosely-primary: #f4eee8;
+    --rosely-secondary: #f4dede;
+    --rosely-secondary-alt:#f4dede;
+    --rosely-tertiary: #d2c4d6;
+    --rosely-active: #f7caca;
+    --rosely-accent-color: #85677b;
+    --rosely-input-box: #d2c4d6;
+    --rosely-mention:  #ec909e;
+    --rosely-red: #ff6c5c;
+    --rosely-svg: #85677b;
+    --rosely-less-hot: #cc0066;
+
+    /* Scrollbar */
+    --rosely-scrollbar-track: var(--rosely-secondary);
+    --rosely-scrollbar-thumb: var(--rosely-tertiary);
+    
+}
+html.theme-dark::before {
+    content: "This is a light mode theme";
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 10001;
+    right: 0;
+    left: 0;
+}
+.theme-light {
+    --background-primary: var(--rosely-primary);
+    --background-secondary: var(--rosely-secondary);
+    --background-secondary-alt: var(--rosely-secondary-alt);
+    --background-floating: var(--rosely-secondary);
+    --background-tertiary: var(--rosely-tertiary);
+    --background-accent: var(--background-primary);
+    --background-mentioned-side:#85677b6c;
+    --header-primary: var(--rosely-accent-color);
+    --interactive-active: var(--rosely-accent-color);
+    --radio-group-dot-foreground: var(--rosely-accent-color);
+    /* Chat input box */
+    --channeltextarea-background: var(--rosely-input-box);
+    --scrollbar-auto-thumb: var(--rosely-scrollbar-thumb);
+    --scrollbar-auto-track: var(--rosely-scrollbar-track);
+    --scrollbar-auto-scrollbar-color-thumb: var(--rosely-scrollbar-thumb);
+    --scrollbar-auto-scrollbar-color-track: var(--rosely-scrollbar-track);
+    --text-link: var(--rosely-secondary-alt);
+}
+
+/* Weird Discord Possesive */
+.theme-light .pageWrapper-1PgVDX {
+  background-color: var(--background-primary);
+}
+
+
+/* People column */
+.theme-light .container-1D34oG { background-color: var(--background-primary); }
+
+/* Modals */
+.theme-light .root-1gCeng { background-color: var(--background-primary); }
+.theme-light .footer-2gL1pp { background-color: var(--background-tertiary); }
+
+/* Popup when you click a mention */
+.theme-light .headerNormal-T_seeN { background-color: var(--background-tertiary); }
+.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 { background-color: var(--background-secondary); }
+
+/* Mention autocompletion in chat box */
+.theme-light .autocomplete-1vrmpx { background-color: var(--background-tertiary) }
+.theme-light .selected-1Tbx07 { background-color: var(--background-secondary); }
+
+.theme-light .item-2hkk8m {
+    background-color: var(--header-primary);
+}
+
+
+.theme-light .focused-3afm-j {
+  background-color: var(--background-mentioned-side);
+}
+
+/* Edit perfil button */
+.theme-light button[aria-label="Editar perfil"] {
+    background-color: var(--rosely-tertiary);
+    color: var(--rosely-svg);
+}
+
+/* Little servidor transmition icon on the side bar */
+.theme-light .upperBadge_c5f96a {
+    background-color: transparent;
+}
+
+.theme-light .iconBadge_c96c45 {
+    background-color: #d2c4d6;
+}
+
+/* In call screen */
+.theme-light .callContainer_d880dc {
+    background-color: var(--rosely-primary);
+}
+
+.theme-light button[aria-label="Desconectar"] svg {
+    color: var(--rosely-primary);
+}
+
+
+/* Side bar buttons */
+.theme-light .actionButtons_adcaac button[aria-expanded="false"]{
+    /* background-color: var(--rosely-secondary); */
+    background-color: var(--rosely-active);
+}
+
+.theme-light .selected_db6521 {
+    background-color: var(--rosely-active);
+}
+
+.theme-light .selected_f90abb .childWrapper_f90abb{
+    background-color: var(--rosely-active);
+}
+
+/* Assets are all white*/
+.theme-light svg {
+    color: var(--rosely-svg);
+}
+
+.theme-light .icon-1DeIlz {
+  color: var(--rosely-svg);
+}
+.theme-light .icon-22AiRD {
+  color: var(--rosely-svg);
+}
+.theme-light .premiumIcon-1rDbWQ {
+    color: #ff73fa;
+}
+
+.theme-light .ownerIcon-2NH9FM {
+    color: #faa61a;
+}
+/* Discord mentions*/
+.theme-light .mentioned-xhSam7:before {
+    background-color: var(--rosely-mention);
+}
+
+.theme-light .mentioned-xhSam7 .mention {
+    background-color: var(--rosely-mention);
+}
+
+.theme-light .wrapper-3WhCwL {
+  color: var(--background-secondary-alt);
+}
+
+.interactive:hover {
+  background-color: var(--rosely-tertiary);
+}
+/* New Messages */
+
+.theme-light .newMessagesBar-265mhP {
+  background-color: var(--background-secondary-alt);
+}
+
+
+/* Inputs */
+
+.theme-light input {
+  background-color: var(--rosely-input-box);
+}
+/* Discord Codeblocks */
+.theme-light code {
+    background-color: var(--rosely-input-box);
+}
+
+.theme-light .inline {
+    background-color: var(--background-primary);
+}
+
+
+/* Embeds with no explicit color set*/
+.theme-light .embed-IeVjo5 {
+    border-color: var(--background-primary);
+}
+
+.theme-light .item-2hkk8m {
+  color: var(--rosely-secondary-alt);
+  background-color: var(--rosely-secondary-alt);
+}
+
+/* Damn Dots */
+
+.theme-light .unread-2lAfLh {
+  background-color: var(--rosely-secondary-alt);
+}
+
+/* Do not Disturb Status*/
+.theme-light rect[mask="url(#svg-mask-status-dnd)"] {
+    fill: var(--rosely-red);
+}
+/* Mention Badge*/
+.theme-light .numberBadge-2s8kKX {
+    background-color: var(--rosely-red) !important;
+}
+/* Search Modal */
+.theme-light .open-6_Y_aH {
+    background-color: var(--background-secondary);
+}
+
+/* Quote */
+.theme-light .blockquoteContainer-U5TVEi {
+    background-color: var(--background-tertiary);
+    
+}
+
+.theme-light .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+  background-color: var(--rosely-secondary-alt);
+}
+
+/* New Reply*/
+.repliedMessage-VokQwo:before {
+    border-color: var(--rosely-secondary-alt);
+}
+
+/* Context Menus*/
+.thin-1ybCId {
+    background-color: var(--background-secondary);
+}
+
+/* Folders are ugly */
+.theme-light .folder-21wGz3 {
+  background-color: var(--rosely-secondary-alt);
+}
+
+.theme-light .expandedFolderIconWrapper-1xLaU- {
+  color: white;
+}
+
+/* User Area */
+.theme-light .panels-j1Uci_ {
+  background-color: var(--rosely-tertiary);
+  background-image: linear-gradient(326deg, var(--rosely-tertiary) 0%, var(--rosely-accent-color) 74%);
+}
+
+/* RPC */
+
+.theme-light .headerPlaying-j0WQBV {
+  background-color: var(--background-tertiary);
+}
+
+.theme-light .lookFilled-1Gx00P {
+  background-color: var(--rosely-accent-color);
+}
+
+.theme-light .colorGrey-2DXtkV {
+  background-color: var(--rosely-less-hot);
+}
+
+/* Bot Tag */
+.botTagRegular-2HEhHi {
+  transition: .5s;
+  background: rgba(114,137,218,0.1);
+  color: #7289da;
+}
+.botTagRegular-2HEhHi:hover {
+  transition: .5s;
+  background: #da7272;
+  color: #fff;
+}
+
+/* Selection Menu Neutral */
+.passthrough-1c2ewQ.selected-2YhbGh  {
+  background-color: #f5df4d !important;
+}
+
+/* Better ROles */
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 5px;
+}
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: .2;
+  pointer-events: none;
+}
+.footer-1fjuF6 {
+  border-top: none;
+}
+/*
+
+Gradient Dark (c) Samia Ali <samiaab1990@gmail.com>
+
+*/
+
+.theme-light .hljs
+{
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+/* background: rgb(80,31,122); */
+/* background: linear-gradient(166deg, rgba(80,31,122,1) 0%, rgba(40,32,179,1) 80%); */
+background-color: var(--rosely-input-box);
+color:#281c37;
+}
+
+.theme-light .markup-2BOw-j code {
+  border: 1px solid var(--rosely-tertiary);
+}
+
+.theme-light .powercord-codeblock-table td:first-child {
+  /* border-right: 1px solid var(--rosely-less-hot); */
+  color: var(--background-mentioned-side);
+}
+
+/* .theme-light .powercord-codeblock-lang {
+   border-bottom: 1px solid var(--rosely-less-hot); 
+  color: var(--background-mentioned-side);
+}  */
+
+.hljs-subtr{
+  color:#e7e4eb;
+}
+
+.hljs-doctag,
+.hljs-meta,
+.hljs-comment,
+.hljs-quote
+{
+  color:#af8dd9;
+}
+
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-regexp,
+.hljs-attr,
+.hljs-tag
+{
+  color:#AEFBFF;
+}
+
+.hljs-params,
+.hljs-selector-class,
+.hljs-bullet
+
+{
+  color:#F19FFF;
+  
+}
+
+.hljs-keyword,
+.hljs-section,
+.hljs-meta-keyword,
+.hljs-symbol,
+.hljs-type
+
+{
+
+  color:#17fc95;
+}
+
+.hljs-addition,
+.hljs-number,
+.hljs-link
+{
+  color:#88b04b;
+}
+
+
+.hljs-string
+{
+  color: #3cadd4;
+}
+
+
+.hljs-attribute,
+.hljs-addition
+{
+  color:#eada4f;
+}
+
+.hljs-variable,
+.hljs-template-variable
+
+{
+  color:#d2386c;
+}
+
+.hljs-builtin-name,
+.hljs-built_in,
+.hljs-formula,
+.hljs-name,
+.hljs-title,
+.hljs-class,
+.hljs-function
+{
+  color: #f54d4d;
+
+}
+
+.hljs-selector-pseudo,
+.hljs-deletion,
+.hljs-literal
+{
+  color:#FF9E44;
+
+}
+
+.hljs-emphasis,
+.hljs-quote
+{
+  font-style:italic;
+}
+
+.hljs-params,
+.hljs-selector-class,
+.hljs-strong,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-section,
+.hljs-keyword
+{
+  font-weight:bold;
+}
