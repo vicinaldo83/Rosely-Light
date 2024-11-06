@@ -7,6 +7,6 @@ This is my first time working with themes, so I used [Wildberry](https://betterd
 
 # Screenshots
 
-![Showcase](https://github.com/vicinaldo83/Rosely-Light/images/showcase.png)
-![In-Call](https://github.com/vicinaldo83/Rosely-Light/images/in-call.png)
-![Settings](https://github.com/vicinaldo83/Rosely-Light/images/settings.png)
+![Showcase](https://github.com/vicinaldo83/Rosely-Light/raw/main/images/showcase.png)
+![In-Call](https://github.com/vicinaldo83/Rosely-Light/raw/main/images/in-call.png)
+![Settings](https://github.com/vicinaldo83/Rosely-Light/raw/main/images/settings.png)
