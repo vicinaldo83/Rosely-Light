@@ -1,6 +1,6 @@
 /**
  * @name Rosely-Light
- * @version 1.0.0
+ * @version 1.0.1
  * @description: Rosely Light Discord Theme is based on a millennial pink inspired colour palette.
  * @website https://github.com/vicinaldo83/Rosely-Light
  */
@@ -19,6 +19,8 @@
     --rosely-red: #ff6c5c;
     --rosely-svg: #85677b;
     --rosely-less-hot: #cc0066;
+    --rosely-link: #88b04b;
+
 
     /* Scrollbar */
     --rosely-scrollbar-track: var(--rosely-secondary);
@@ -52,7 +54,7 @@ html.theme-dark::before {
     --scrollbar-auto-track: var(--rosely-scrollbar-track);
     --scrollbar-auto-scrollbar-color-thumb: var(--rosely-scrollbar-thumb);
     --scrollbar-auto-scrollbar-color-track: var(--rosely-scrollbar-track);
-    --text-link: var(--rosely-secondary-alt);
+    --text-link: var(--rosely-link);
 }
 
 /* Weird Discord Possesive */
@@ -328,7 +330,7 @@ color:#281c37;
 }  */
 
 .hljs-subtr{
-  color:#e7e4eb;
+  color:#88b04b;
 }
 
 .hljs-doctag,
